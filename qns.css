@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(45, 49, 186);
+}
+
+.navbar{
+    height: 89.46px;
+    background-color: rgb(0, 0, 136);
+}
+
+.logoh{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;   
+}
+
+.redirection{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    display:flex;
+    padding-top: 15px;
+    padding-bottom:33px ;
+    
+}
+
+.espacement{
+    margin-right: 50px;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    margin-bottom: 33px; 
+}
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f0f4ff, #dfe7ff);
+            color: #1a1a1a;
+            overflow-x: hidden;
+        }
+
+        /* Entête avec animation */
+        header {
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 4em;
+            font-weight: bold;
+            margin: 0;
+            animation: slideDown 1s ease-out;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+            animation: fadeIn 2s ease-out;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.3), rgba(255,255,255,0));
+            animation: spin 10s linear infinite;
+        }
+
+        /* Section principale */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        main section {
+            background: white;
+            margin: 20px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transform: scale(0.95);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        main section:hover {
+            transform: scale(1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        main section::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #8f94fb, #4e54c8);
+            border-radius: 50%;
+            opacity: 0.5;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        main section h2 {
+            font-size: 2.5em;
+            color: #4e54c8;
+            margin: 0 0 20px;
+        }
+
+        main section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin: 0 0 20px;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background: linear-gradient(90deg, #8f94fb, #4e54c8);
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background: #4e54c8;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1.2em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer p strong {
+            color: #8f94fb;
+        }
+        .footbar{
+            height: 89.46px;
+            background-color: rgb(0, 0, 136);
+        }
+        
+        .center{
+            color: white;
+            margin-top: 0px;
+            padding-top: 30px;
+            text-align: center;
+        }
