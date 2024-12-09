@@ -49,6 +49,7 @@ body{
 }
 
 .center{
+    text-decoration: none;
     color: white;
     margin-top: 0px;
     padding-top: 30px;

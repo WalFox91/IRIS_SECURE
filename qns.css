@@ -184,7 +184,7 @@ body{
         
         .image-container img {
             width: 200px;
-            height: auto;
+            height: 200px;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -194,6 +194,71 @@ body{
             transform: scale(1.1);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
         }
+
+        .maintenance-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            margin: 40px auto;
+            padding: 20px 30px;
+            max-width: 1200px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .maintenance-text {
+            flex: 1 1 50%;
+            max-width: 600px;
+            padding: 20px;
+        }
+        
+        .maintenance-text h2 {
+            font-size: 2.5em;
+            color: #4e54c8;
+            margin-bottom: 20px;
+        }
+        
+        .maintenance-text p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+            margin: 10px 0;
+        }
+        
+        .maintenance-text .button {
+            margin-top: 20px;
+            display: inline-block;
+            background: linear-gradient(90deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .maintenance-text .button:hover {
+            background: linear-gradient(90deg, #8f94fb, #4e54c8);
+            transform: scale(1.05);
+        }
+        
+        .maintenance-image {
+            flex: 1 1 40%;
+            max-width: 500px;
+            text-align: center;
+        }
+        
+        .maintenance-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
         
         .footbar{
             height: 89.46px;
@@ -201,8 +266,9 @@ body{
         }
         
         .center{
-            color: white;
-            margin-top: 0px;
-            padding-top: 30px;
-            text-align: center;
+            text-decoration: none;
+    color: white;
+    margin-top: 0px;
+    padding-top: 30px;
+    text-align: center;
         }
